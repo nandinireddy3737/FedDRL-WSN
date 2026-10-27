@@ -1,0 +1,27 @@
+function R=initializeResults(P)
+R.energyRound=zeros(P.rounds,1);
+R.energy=zeros(P.rounds,1);
+R.residualEnergy=zeros(P.rounds,1);
+R.alive=zeros(P.rounds,1);
+R.dead=zeros(P.rounds,1);
+R.delay=zeros(P.rounds,1);
+R.throughput=zeros(P.rounds,1);
+R.reliability=zeros(P.rounds,1);
+R.loadBalance=zeros(P.rounds,1);
+R.PDR=zeros(P.rounds,1);
+R.packetLoss=zeros(P.rounds,1);
+R.routingOverhead=zeros(P.rounds,1);
+R.stability=zeros(P.rounds,1);
+R.reward=zeros(P.rounds,1);
+R.loss=zeros(P.rounds,1);
+R.drift=zeros(P.rounds,1);
+R.numCH=zeros(P.rounds,1);
+R.actorLR=zeros(P.rounds,1);
+R.criticLR=zeros(P.rounds,1);
+R.ppoClip=zeros(P.rounds,1);
+R.intrinsicWeight=zeros(P.rounds,1);
+R.actualRounds=P.rounds;
+R.FND=NaN;
+R.HND=NaN;
+R.LND=NaN;
+end

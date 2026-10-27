@@ -1,0 +1,8 @@
+# MATLAB temporary and cache files
+*.asv
+*.m~
+*.autosave
+*.mex*
+slprj/
+codegen/
+cache/
